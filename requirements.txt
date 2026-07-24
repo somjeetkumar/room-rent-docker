@@ -23,3 +23,7 @@ django-cloudinary-storage==0.3.0
 
 dj-database-url
 python-dotenv
+
+
+django-storages
+boto3
