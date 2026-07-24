@@ -131,7 +131,7 @@ class loginView(View):
     def post(self,request):
         start = time.time()
         user = authenticate(username=request.POST.get('username'),password=request.POST.get('password'))
-        print('auth time',time.time()-start,' -- - -- ', user)
+        
         if user is not None:
             login(request,user)
             # print('auth time',time.time()-start)
