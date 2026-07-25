@@ -14,8 +14,9 @@ body { font-family: 'Roboto', sans-serif; background-color: #f0f2f5; }
 .btn-add-room:hover { background-color: #e04e00; color: white; }
 /* Hero Section */
 .hero-section {
-    background: linear-gradient(rgba(0,0,0,0.2), rgba(0,0,0,0.2)), 
-                url('https://images.unsplash.com/photo-1522708323590-d24dbb6b0267?auto=format&fit=crop&w=1600&q=80');
+    /* background: linear-gradient(rgba(0,0,0,0.2), rgba(0,0,0,0.2)), 
+                url('https://images.unsplash.com/photo-1522708323590-d24dbb6b0267?auto=format&fit=crop&w=1600&q=80'); */
+                /* background-color: red; */
     background-size: cover;
     background-position: center;
     height: 450px;
