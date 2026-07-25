@@ -64,6 +64,7 @@ MIDDLEWARE = [
     'whitenoise.middleware.WhiteNoiseMiddleware',
 ]
 
+
 ROOT_URLCONF = 'backend.urls'
 
 TEMPLATES = [
@@ -189,9 +190,11 @@ STORAGES = {
     "default": {
         "BACKEND": "storages.backends.s3.S3Storage",
     },
+ 
     "staticfiles": {
-        "BACKEND": "django.contrib.staticfiles.storage.StaticFilesStorage",
-    },
+        "BACKEND": "whitenoise.storage.CompressedManifestStaticFilesStorage",
+    }
+ 
 }
 
 
